@@ -229,7 +229,7 @@ const projects = [
     },
     
     {
-        title:"Strutural Supports",
+        title:"Structural Supports",
         image:"assests/images/project4.png",
 
         media: [
