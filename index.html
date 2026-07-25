@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kanishka Sivarajah | Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                Kanishka Sivarajah
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a class="nav-link" href="#home">Home</a></li>
+            
+                <li><a class="nav-link" href="#projects">Projects</a></li>
+            
+                <li><a class="nav-link" href="#experience">Experience</a></li>
+            
+                <li><a class="nav-link" href="#contact">Contact Me!</a></li>
+            
+            </ul>
+
+        </nav>
+
+    </header>
+
+<!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+    <!-- Left Side -->
+
+        <div class="hero-text">
+
+        <p class="greeting">Hi !</p>
+
+        <h1>
+            Welcome to my
+            <span>Portfolio !</span>
+        </h1>
+
+        <p class="description">
+            Interested in
+            <strong>Clean Energy</strong>,
+            <strong>Product Development</strong>,
+            and
+            <strong>Engineering Design</strong>.
+        </p>
+
+        <div class="profile-photo">
+            <img src="assests/images/home.png" alt="Kanishka Sivarajah">
+        </div>
+
+    </div>
+
+    <!-- Right Side -->
+
+    <div class="hero-right">
+
+        <!-- Education -->
+    
+        <div class="education-card">
+    
+            <img
+                src= "assests/images/bulogo.png"
+                alt="Boston University Logo"
+                class="bulogo"
+            >
+    
+            <div class="card-text">
+                <p class="degree">B.S. Electrical Engineering</p>
+                <p class="class-year">Class of 2027</p>
+            </div>
+    
+        </div>
+    
+    
+        <!-- Skills -->
+    
+        <div class="skills-card">
+    
+            <h3>Technical Skills</h3>
+    
+            <h4>Design Software</h4>
+    
+            <div class="skills">
+    
+                <span>KiCAD</span>
+                <span>OnShape</span>
+                <span>Vivado</span>
+                <span>Cura</span>
+                <span>FlashPrint 5</span>
+                <span>Arduino IDE</span>
+    
+            </div>
+    
+            <h4>Programming</h4>
+    
+            <div class="skills">
+    
+                <span>Python</span>
+                <span>MATLAB</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+
+    
+            </div>
+
+            <h4>Engineering</h4>
+    
+            <div class="skills">
+    
+                <span>Arduino</span>
+                <span>FPGA</span>
+                <span>Soldering</span>
+                <span>3D Printing</span>
+                <span>Laser Cutting</span>
+                <span>Drill Press</span>
+    
+            </div>
+    
+            <h4>Productivity</h4>
+    
+            <div class="skills">
+    
+                <span>Linux</span>
+                <span>Microsoft Office</span>
+    
+            </div>
+    
+        </div>
+    
+    </div>
+
+    </section>
+<!-- ================= PROJECTS ================= -->
+
+<section id="projects" class="page-section">
+
+    <div class="projects-header">
+
+        <h2>Projects</h2>
+
+        <img
+            src="assests/images/projects.png"
+            alt="Projects"
+            class="projects-icon">
+
+    </div>
+
+    <div class="carousel-container">
+
+        <button class="carousel-btn" id="prevBtn">
+            &#10094;
+        </button>
+
+        <div class="project-card" id="projectCard1">
+
+            <img
+                id="projectImage1"
+                src="assests/images/project1.png"
+                alt="Project">
+
+            <h3 id="projectTitle1">
+                Temperature Sensor
+            </h3>
+
+        </div>
+        <div class="project-card" id="projectCard2">
+            <img id="projectImage2"
+                src="assests/images/project2.png"
+                alt="Project">
+            <h3 id="projectTitle2">
+                Gait Tracker
+            </h3>
+        </div>
+
+        <button class="carousel-btn" id="nextBtn">
+            &#10095;
+        </button>
+
+    </div>
+
+    <div class="carousel-dots">
+
+        <span class="dot active"></span>
+        <span class="dot"></span>
+
+    </div>
+
+</section>
+
+<div id="projectModal" class="project-modal">
+
+    <div class="modal-content">
+
+        <span id="closeModal">&times;</span>
+
+        <div class="modal-gallery">
+
+            <img id="modalImage">
+
+        </div>
+
+        <div class="modal-text">
+
+            <h3>Project Description</h3>
+
+            <p id="modalDescription"></p>
+        
+            <h3>Skills Learned</h3>
+        
+            <div id="modalSkills" class="skills"></div>
+
+            <h3>Project Gallery</h3>
+
+            <div id="projectGallery" class="project-gallery"></div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- ================= EXPERIENCE ================= -->
+
+<section id="experience" class="page-section">
+
+    <div class="experience-header">
+
+        <h2>Experience</h2>
+
+        <img
+            src="assests/images/experience.png"
+            alt="Experience"
+            class="experience-icon">
+
+    </div>
+
+    <div class="timeline">
+
+        <!-- Experience 1 -->
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <h3>BU Initiative for Literacy Development (BUILD)</h3>
+
+                <h4>Teaching Assistant</h4>
+
+                <p class="date">
+                    October 2025 – May 2026
+                </p>
+
+                <ul>
+                    <li>Assist teachers with in class activities for class of 32 students.</li>
+
+                    <li>Tutor students after school in math and reading through 1:1 and group sessions, 2x per week.</li>
+
+                    <li>Maintain records of student assessments and tutoring activities and attend weekly debrief meetings.</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+        <!-- Experience 2 -->
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <h3>BU College of Engineering Career Development Office</h3>
+
+                <h4>Office Assistant</h4>
+
+                <p class="date">
+                    January 2024 – May 2025
+                </p>
+
+                <ul>
+
+                    <li>Managed and organized digital databases of employer job postings and student career resources, ensuring timely 
+                        and accurate updates.</li>
+
+                    <li>Coordinated student and employer communications while maintaining confidential records and supporting office 
+                        operations.</li>
+
+                    <li>Assisted with career fairs and recruiting events by organizing registration data and event logistics.</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+
+    <section id="contact" class="page-section">
+
+        <div class="contactme-header">
+            
+            <h2>Contact Me !</h2>
+
+            <img
+                src="assests/images/contactme.png"
+                alt="Contactme Illustration"
+                class="contactme-icon"
+            >
+    
+        </div>
+
+        <div class="contact-container">
+
+            <!-- Left Side -->
+    
+            <div class="contact-info">
+    
+                <h3>Let's Connect !</h3>
+    
+                <p>
+                    Feel free to reach out regarding projects,
+                    internships, collaborations, or just to say hello !
+                </p>
+    
+                <div class="contact-item">
+                    📧
+                    <span>kanishkasivarajah05@gmail.com</span>
+                </div>
+    
+                <a href="https://www.linkedin.com/in/kanisiv/"
+                   target="_blank"
+                   class="linkedin-btn">
+    
+                    LinkedIn
+    
+                </a>
+    
+                <a href="assests/Resume.pdf"
+                   target="_blank"
+                   class="resume-btn">
+    
+                    View Resume
+    
+                </a>
+    
+            </div>
+    
+            <!-- Right Side -->
+    
+            <form  id="contact-form" class="contact-form" action="https://formspree.io/f/mkodgepz"
+            method="POST">
+    
+                <div class="name-row">
+    
+                    <input
+                    type="text"
+                    name="firstName"
+                    placeholder="First Name"
+                    required
+                    >
+    
+                    <input
+                    type="text"
+                    name="lastName"
+                    placeholder="Last Name"
+                    required
+                    >
+    
+                </div>
+    
+                <input
+                type="email"
+                name="email"
+                placeholder="Email"
+                required
+                >
+    
+                <textarea
+                name="message"
+                placeholder="Your Message..."
+                rows="8"
+                required></textarea>
+    
+                <button type="submit">
+    
+                    Send Message
+    
+                </button>
+
+                <p id="form-status"></p>
+    
+            </form>
+    
+        </div>    
+
+    </section>
+
+    <div id="imageViewer">
+
+    <img id="viewerImage">
+
+    <video id="viewerVideo" controls></video>
+
+    <p id="viewerCaption"></p>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
